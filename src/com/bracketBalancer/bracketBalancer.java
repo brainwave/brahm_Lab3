@@ -72,12 +72,14 @@ public class bracketBalancer {
 			}
 		}
 
-		if (deque.size() != 0) {
+		if (deque.size() != 0) { // case when the stack is still not empty after the loop has gone through all
+									// characters of string (so dangling opening brackets are present)
 			System.out.println(deque.toString());
 			System.out.println("Trip 2 : The entered Strings do not contain Balanced Brackets");
 		}
 
-		else
+		else // if all the rejection criteria above did not occur, the string must be
+				// balanced.
 			System.out.println("The entered String has Balanced Brackets");
 	}
 }

@@ -7,6 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		// as mentioned in problem statement, hardcoding inputs is okay.
 		String hardCodedInput1 = "([[{}]])()";
 		String hardCodedInput2 = "([[{}]]))";
 
