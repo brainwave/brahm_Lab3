@@ -1,6 +1,4 @@
-package com.main;
-
-import com.bracketBalancer.bracketBalancer;
+package com.bracketBalancer;
 
 public class Main {
 
